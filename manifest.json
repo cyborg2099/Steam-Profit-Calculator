@@ -1,0 +1,29 @@
+  {
+  "manifest_version": 2,
+  "name": "Steam-Profit-Calculator",
+  "version": "1.0",
+  
+  "icons":{
+    "16": "steam.png",
+    "48": "steam.png",
+    "128": "steam.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [ "*://*/*" ],
+      "js": [ "content.js" ] 
+    }
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+      "browser_action": {
+        "default_title": "bot",
+        "default_icon": "steam.png",
+        "default_popup": "popup.html"
+    }
+ 
+} 
+    
+        

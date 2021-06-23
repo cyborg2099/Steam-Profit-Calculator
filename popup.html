@@ -1,0 +1,79 @@
+ <!DOCTYPE html>
+ <html lang="ru">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>SPC</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+     
+<div class="contianer">
+    <div class="wrapper">
+        <div class="app__info">
+            <h1>Steam <span class="green">Profit</span> Calculator</h1>
+        </div>
+
+        <div class="input_contianer">
+            <div class="content_input">
+                <div class="text_input">Цена покупки</div>
+                <input id="input_id1" class="input_class" maxlength="16" type="number">
+            </div>
+            <div class="content_input">
+                <div class="text_input">Цена продажи</div>
+                <input id="input_id2" class="input_class" maxlength="16" type="number">
+            </div>
+            <div class="content_input">
+                <div class="text_input">Количество</div>
+                <input id="input_id3" class="input_class" maxlength="16" type="number">
+            </div>
+        </div>
+
+        <div class="result_contianer">
+            <div class="result_content">
+                <div class="text_result">Продажа в ноль:</div>
+                <p class="res_vp" id="res_c1">0.00</p>
+                <div class="rubl">₽</div>
+            </div>
+            <div class="line"></div>
+            <div class="result_content">
+                <div class="text_result">Комиссия:</div>
+                <p class="res_vp" id="res_c2">0.00</p>
+                <div class="rubl">₽</div>
+            </div>
+            <div class="line"></div>
+            <div class="result_content">
+                <div class="text_result">Потрачено:</div>
+                <p class="res_vp" id="res_c3">0.00</p>
+                <div class="rubl">₽</div>
+            </div>
+            <div class="line"></div>
+            <div class="result_content">
+                <div class="text_result">Заработано:</div>
+                <p class="res_vp" id="res_c4">0.00</p>
+                <div class="rubl">₽</div>
+            </div>
+            <div class="line"></div>
+            <div class="result_content">
+                <div class="text_result">Прибыль:</div>
+                <p class="res_vp" id="res_c5">0.00</p>
+                <div class="rubl">₽</div>
+            </div>
+            <div class="line"></div>
+        </div>
+
+        
+
+    </div>
+    <div class="contianer_footer">
+        <a class="button" href="donat.html">Поддержать проект &#8383</a>
+        <div class="info"><a href="info.html">Прочитать перед использованием</a></div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+ </body>
+ </html>
