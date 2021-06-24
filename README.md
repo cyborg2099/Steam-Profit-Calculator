@@ -1,6 +1,6 @@
 <h1>О Steam-Profit-Calculator</h1>
 <a href="https://cyborg2099.github.io/stprofitcalculator/">Steam-Profit-Calculator</a> - это расширение для браузера, которое упростит подсчеты на ТП Steam.
-<img src="https://cyborg2099.github.io/stprofitcalculator/img/img.png" alt="img">
+<img src="https://cyborg2099.github.io/steamprofitcalculator/img/img.png" alt="img">
 
 <h3>Что умеет?</h3>
 <ul> 
